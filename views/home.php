@@ -121,7 +121,7 @@
 
                         if ($tinhNgay->days <= 7) { ?>
                           <div class="product-label new">
-                            <!-- <span>Mới</span> -->
+                            <span>Mới</span>
                           </div>
                         <?php }
                         ?>

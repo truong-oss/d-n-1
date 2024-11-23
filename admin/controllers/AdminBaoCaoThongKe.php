@@ -15,17 +15,7 @@ class AdminBaoCaoThongKe{
         require_once './views/home.php';
 
     }
-    // public function index() {
-    //     $data = [
-    //         'totalUsers' => $this->model->getTotalUsers(),
-    //         'totalCategories' => $this->model->getTotalCategories(),
-    //         'totalProducts' => $this->model->getTotalProducts(),
-    //         'totalOrders' => $this->model->getTotalOrders(),
-    //     ];
-
-    //     // Load the view and pass the data
-    //     require_once './views/home.php';
-    // }
+  
 
 }
 ?>

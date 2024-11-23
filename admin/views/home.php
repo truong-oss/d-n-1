@@ -25,24 +25,48 @@
     </section>
 
     <!-- Main content -->
-    <div class="dashboard-container">
-        <div class="card">
-            <h3>Total Users</h3>
-            <p><?= $data['totalUsers']; ?></p>
+    <!-- Dashboard Container -->
+<div class="container-fluid">
+    <div class="row">
+        <!-- Total Users -->
+        <div class="col-md-3">
+            <div class="card text-center shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Total Users</h5>
+                    <p class="card-text h4"><?= $data['totalUsers']; ?></p>
+                </div>
+            </div>
         </div>
-        <div class="card">
-            <h3>Total Categories</h3>
-            <p><?= $data['totalCategories']; ?></p>
+        <!-- Total Categories -->
+        <div class="col-md-3">
+            <div class="card text-center shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Total Categories</h5>
+                    <p class="card-text h4"><?= $data['totalCategories']; ?></p>
+                </div>
+            </div>
         </div>
-        <div class="card">
-            <h3>Total Products</h3>
-            <p><?= $data['totalProducts']; ?></p>
+        <!-- Total Products -->
+        <div class="col-md-3">
+            <div class="card text-center shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Total Products</h5>
+                    <p class="card-text h4"><?= $data['totalProducts']; ?></p>
+                </div>
+            </div>
         </div>
-        <div class="card">
-            <h3>Total Orders</h3>
-            <p><?= $data['totalOrders']; ?></p>
+        <!-- Total Orders -->
+        <div class="col-md-3">
+            <div class="card text-center shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Total Orders</h5>
+                    <p class="card-text h4"><?= $data['totalOrders']; ?></p>
+                </div>
+            </div>
         </div>
     </div>
+</div>
+
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
