@@ -48,7 +48,7 @@
                   <li><a href="#"><span class="icon icon-person"></span></a></li>
                   <li><a href="#"><span class="icon icon-heart-o"></span></a></li>
                   <li>
-                    <a href="cart.html" class="site-cart">
+                    <a href="" class="site-cart">
                       <span class="icon icon-shopping_cart"></span>
                       <span class="count">2</span>
                     </a>
@@ -65,7 +65,7 @@
         <div class="container">
           <ul class="site-menu js-clone-nav d-none d-md-block">
             <li class="has-children">
-              <a href="index.html">Home</a>
+              <a href="<?=BASE_URL  ?>">Home</a>
               <ul class="dropdown">
                 <li><a href="#">Menu One</a></li>
                 <li><a href="#">Menu Two</a></li>
@@ -88,7 +88,7 @@
                 <li><a href="#">Menu Three</a></li>
               </ul>
             </li>
-            <li class="active"><a href="shop.html">Shop</a></li>
+            <li class="active"><a href="<?=BASE_URL.'?act=list-san-pham' ?>">Shop</a></li>
             <li><a href="#">Catalogue</a></li>
             <li><a href="#">New Arrivals</a></li>
             <li><a href="contact.html">Contact</a></li>

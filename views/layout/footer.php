@@ -33,7 +33,7 @@
           <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
             <h3 class="footer-heading mb-4">Promo</h3>
             <a href="#" class="block-6">
-              <img src="images/hero_1.jpg" alt="Image placeholder" class="img-fluid rounded mb-4">
+              <img src="" alt="Image placeholder" class="img-fluid rounded mb-4">
               <h3 class="font-weight-light  mb-0">Finding Your Perfect Shoes</h3>
               <p>Promo from  nuary 15 &mdash; 25, 2019</p>
             </a>
@@ -63,7 +63,7 @@
           <div class="col-md-12">
             <p>
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" class="text-primary">Colorlib</a>
+            <!-- Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" class="text-primary">Colorlib</a> -->
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             </p>
           </div>
@@ -73,7 +73,7 @@
     </footer>
   </div>
 
-  <!-- <script src="./assets/js/jquery-3.3.1.min.js"></script>
+  <script src="./assets/js/jquery-3.3.1.min.js"></script>
   <script src="./assets/js/jquery-ui.js"></script>
   <script src="./assets/js/popper.min.js"></script>
   <script src="./assets/js/bootstrap.min.js"></script>
@@ -81,7 +81,7 @@
   <script src="./assets/js/jquery.magnific-popup.min.js"></script>
   <script src="./assets/js/aos.js"></script>
 
-  <script src="./assets/js/main.js"></script> -->
+  <script src="./assets/js/main.js"></script>
     
   </body>
 </html>

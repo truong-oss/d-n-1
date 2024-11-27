@@ -1,6 +1,7 @@
 <?php include './views/layout/header-nav.php' ?>
-
-    <div class="site-blocks-cover" style="background-image: url(images/hero_1.jpg);" data-aos="fade">
+<?php foreach ($listBanner as $key => $banner): ?>
+    <div class="site-blocks-cover" style="background-image: url();" data-aos="fade">
+    <?php endforeach ?>
       <div class="container">
         <div class="row align-items-start align-items-md-center justify-content-end">
           <div class="col-md-5 text-center text-md-left pt-5 pt-md-0">
@@ -135,7 +136,10 @@
                       </div>
 
                       <div class="cart-hover">
-                        <button class="btn btn-cart">Xem chi tiết</button>
+                        <a href="<?=BASE_URL .'?act=chi-tiet-san-pham&id_san_pham='.$sanPham['id']?>">
+                          <button class="btn btn-cart">Xem chi tiết</button>
+                        </a>
+                        
                       </div>
                     </figure>
                     <div class="block-4-text p-4">
@@ -183,15 +187,7 @@
 <?php include './views/layout/footer.php'?>
    
 
-  <script src="./assets/js/jquery-3.3.1.min.js"></script>
-  <script src="./assets/js/jquery-ui.js"></script>
-  <script src="./assets/js/popper.min.js"></script>
-  <script src="./assets/js/bootstrap.min.js"></script>
-  <script src="./assets/js/owl.carousel.min.js"></script>
-  <script src="./assets/js/jquery.magnific-popup.min.js"></script>
-  <script src="./assets/js/aos.js"></script>
-
-  <script src="./assets/js/main.js"></script>
+ 
 
 </body>
 
